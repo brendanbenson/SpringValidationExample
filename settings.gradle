@@ -1,0 +1,4 @@
+rootProject.name = "spring-validation-example"
+
+new File(rootDir, "applications").eachDir { dir -> include "applications/${dir.name}" }
+new File(rootDir, "components").eachDir { dir -> include "components/${dir.name}" }

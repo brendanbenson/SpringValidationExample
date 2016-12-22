@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+dependencies {
+//    This component must only depend on other "domain" components.
+//    Do not add dependencies for non-domain components.
+}
