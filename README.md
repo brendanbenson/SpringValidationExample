@@ -2,6 +2,8 @@
 
 This project demonstrates Spring Validations using Spring Boot.
 
+Read a full description of this repository on my blog post about [Spring validation](http://www.bbenson.co/post/spring-validations-with-examples/).
+
 To run the application:
 ```
 ./gradlew bootRun
