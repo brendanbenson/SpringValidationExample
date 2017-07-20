@@ -20,7 +20,7 @@ public class ProductController {
         this.productRepository = productRepository;
     }
 
-    @InitBinder
+    @InitBinder("productCreateRequest")
     public void setupBinder(WebDataBinder binder) {
         binder.addValidators(productCreateRequestValidator);
     }
