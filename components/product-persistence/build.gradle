@@ -5,7 +5,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework:spring-context:4.3.4.RELEASE'
+    compile 'org.springframework:spring-context:5.0.6.RELEASE'
 
     compile project (":components/product-domain")
 }

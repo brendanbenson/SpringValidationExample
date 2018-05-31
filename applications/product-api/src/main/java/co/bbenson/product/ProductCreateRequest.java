@@ -1,8 +1,7 @@
 package co.bbenson.product;
 
-import org.hibernate.validator.constraints.NotBlank;
-
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
 import java.time.LocalDateTime;
 
 class ProductCreateRequest {

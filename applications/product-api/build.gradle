@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.4.2.RELEASE'
+		springBootVersion = '2.0.2.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -10,8 +10,10 @@ buildscript {
 	}
 }
 
+
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 
 jar {
 	baseName = 'spring-validation-example'
@@ -27,6 +29,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-security')
 	compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.5")
 
 	compile project(":components/api-error")
